@@ -1,0 +1,40 @@
+.activity {
+    border-radius: 15px;
+    position: relative;
+    color: white;
+    display: grid;
+    grid-template-rows: 40px 240px;
+}
+
+.activity__upper > img {
+    /* display: -webkit-box;
+    margin: -10px 10px -10px auto; */
+    position: absolute;
+    right: 15px;
+    top: -10px;
+}
+
+.activity__lower {
+    background-color: rgba(29,32,75,255); 
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.header > img {
+    width: auto;
+    height: 5px;
+}
+
+.current {
+    font-weight: 100;
+    margin-bottom: -10px;
+}
