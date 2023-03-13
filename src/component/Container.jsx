@@ -14,13 +14,13 @@ function Container() {
   }
 
   function weeklyHandler() {
-    setDaily(false);
-    setWeekly(true);
+      setDaily(false);
+      setWeekly(true);
 }
 
   function monthlyHandler() {
-  setDaily(false);
-  setWeekly(false);
+      setDaily(false);
+      setWeekly(false);
 }
 
   return (
@@ -36,8 +36,8 @@ function Container() {
                 <button type='button' onClick={weeklyHandler}>Weekly</button>
                 <button type='button' onClick={monthlyHandler}>Monthly</button>
             </div>
-                                 
         </div>
+        
        {/* {timeTrack.map(timeTrack => <Activities title={timeTrack.title} current={timeTrack.timeframes.weekly.current} last={timeTrack.timeframes.weekly.previous} color={timeTrack.color} image={timeTrack.image}/>)} */}
        {daily ? 
        timeTrack.map(timeTrack => <Activities title={timeTrack.title} current={timeTrack.timeframes.daily.current} last={timeTrack.timeframes.daily.previous} color={timeTrack.color} image={timeTrack.image}/>):

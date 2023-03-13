@@ -6,6 +6,11 @@
     grid-template-rows: 40px 240px;
 }
 
+.activity__upper {
+    overflow: hidden;
+    position: relative;
+}
+
 .activity__upper > img {
     /* display: -webkit-box;
     margin: -10px 10px -10px auto; */
@@ -18,7 +23,6 @@
     background-color: rgba(29,32,75,255); 
     padding: 20px;
     border-radius: 15px;
-    position: relative;
 
 }
 
